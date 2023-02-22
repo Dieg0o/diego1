@@ -1,6 +1,5 @@
 body {
-    background-image: url("images/47343047c5_105832_ciel-bleu-01.jpg");
-    background-blend-mode: hue;
+    background: linear-gradient(rgb(200, 200, 254), white);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -51,11 +50,17 @@ body {
     text-align: center;
 }
 
-.prix{
+.container3 {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
-    border-width: 5px;
+    justify-content: space-between;
+}
+
+.prix1{
+    text-align: center;
+    flex-basis: 45%;
     border-style: solid;
     border-color: black;
 }
