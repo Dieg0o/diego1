@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to bottom right,white, grey);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nom {
+    text-align: center;
+}
+
+.image {
+    align-items: center;  
+}
+
