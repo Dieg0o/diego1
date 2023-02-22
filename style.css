@@ -1,6 +1,42 @@
 body {
-    background: linear-gradient(to bottom right,white, grey);
+    background-color: rgb(206, 255, 239);
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: rgb(136, 170, 188);
+}
+
+.footer{
+    background-color: rgb(136, 170, 188);
+    text-align: center;
+}
+
+.content {
+    display: block;
+}
+.container {
+    display: flex;
+}
+
+.mainname {
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .nom {
@@ -8,6 +44,17 @@ body {
 }
 
 .image {
-    align-items: center;  
+    text-align: center;
 }
+
+.prix{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
 
