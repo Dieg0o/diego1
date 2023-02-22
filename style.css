@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(206, 255, 239);
+    background-image: url("images/47343047c5_105832_ciel-bleu-01.jpg");
+    background-blend-mode: hue;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -29,7 +30,10 @@ body {
 }
 
 .mainname {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large
 }
 
 .container2 {
