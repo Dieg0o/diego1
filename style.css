@@ -9,6 +9,14 @@ body {
     flex-direction: row;
 }
 
+.main { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -16,9 +24,19 @@ body {
     background-color: rgb(136, 170, 188);
 }
 
-.footer{
+.sidebar2 {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(136, 170, 188);
+}
+
+.footer{    
+    display: flex;
     background-color: rgb(136, 170, 188);
     text-align: center;
+    align-self: flex-end;   
 }
 
 .content {
@@ -36,6 +54,9 @@ body {
 }
 
 .container2 {
+    border: 5px;
+    border-style: solid;
+    border-width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -113,7 +134,8 @@ body {
 .dropdown-child {
     display: none;
     background-color: skyblue;
-    min-width: 120px;
+    min-width: auto;
+    width: auto;
 }
 .dropdown-child a {
     color: blue;
