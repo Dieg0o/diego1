@@ -1,5 +1,4 @@
 body {
-    background: linear-gradient(rgb(200, 200, 254), white);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -7,49 +6,45 @@ body {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .main { 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    background-color: rgb(136, 170, 188);
+    width: max-content;
+    background-color: rgb(177, 177, 177);
 }
 
 .sidebar2 {
-    display: flex;
-    align-self: flex-start;
-    flex-direction: column;
-    width: 200px;
-    background-color: rgb(136, 170, 188);
+    width: 125px;
+    height: 790px;
+    background-color: rgb(177, 177, 177);
 }
 
 .footer{    
     display: flex;
-    background-color: rgb(136, 170, 188);
-    text-align: center;
-    align-self: flex-end;   
+    
+    background-color: rgb(161, 161, 161);
+    justify-content: center;
 }
 
 .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .mainname {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size:x-large
 }
 
@@ -69,6 +64,9 @@ body {
 
 .image {
     text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: auto;
 }
 
 .container3 {
@@ -87,7 +85,7 @@ body {
 }
 
 .Europe {
-    background-color: skyblue;
+    background-color: rgb(126, 126, 126);
     color: white;
     border: none;
     cursor: pointer;
@@ -95,7 +93,7 @@ body {
     margin-top: 20px;
 }
 .mainmenubtn:hover {
-    background-color: blue;
+    background-color: rgb(211, 211, 211);
     }
 .dropdown {
     position: relative;
@@ -103,11 +101,11 @@ body {
 }
 .dropdown-child {
     display: none;
-    background-color: skyblue;
+    background-color: rgb(214, 214, 214);
     min-width: 120px;
 }
 .dropdown-child a {
-    color: blue;
+    color: rgb(71, 71, 71);
     padding: 20px;
     text-decoration: none;
     display: block;
@@ -117,7 +115,7 @@ body {
 }
 
 .Asie {
-    background-color: skyblue;
+    background-color: rgb(126, 126, 126);
     color: white;
     border: none;
     cursor: pointer;
@@ -133,12 +131,12 @@ body {
 }
 .dropdown-child {
     display: none;
-    background-color: skyblue;
+    background-color: rgb(218, 218, 218);
     min-width: auto;
     width: auto;
 }
 .dropdown-child a {
-    color: blue;
+    color: rgb(71, 71, 71);
     padding: 20px;
     text-decoration: none;
     display: block;
@@ -148,7 +146,7 @@ body {
 }
 
 .Afrique {
-    background-color: skyblue;
+    background-color: rgb(126, 126, 126);
     color: white;
     border: none;
     cursor: pointer;
@@ -164,11 +162,11 @@ body {
 }
 .dropdown-child {
     display: none;
-    background-color: skyblue;
+    background-color: rgb(214, 214, 214);
     min-width: 120px;
 }
 .dropdown-child a {
-    color: blue;
+    color: rgb(71, 71, 71);
     padding: 20px;
     text-decoration: none;
     display: block;
